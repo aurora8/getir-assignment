@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
+import { ThrottlerModule } from '@nestjs/throttler';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { Item, ItemSchema } from './schemas/record.schema';
@@ -15,6 +16,10 @@ import { Item, ItemSchema } from './schemas/record.schema';
     MongooseModule.forFeature([
       { name: Item.name, schema: ItemSchema },
     ]),
+    ThrottlerModule.forRoot({
+      ttl: 60,
+      limit: 50,
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],

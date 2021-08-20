@@ -1,7 +1,14 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { Type } from "class-transformer";
-import { IsDate, IsDateString, IsInt, IsNotEmpty, IsNumber, Min } from "class-validator";
+import { IsDate, IsInt, IsNotEmpty, Min } from "class-validator";
 
+/**
+ * @class RecordDto
+ * a class representing a transfer object that is serialized 
+ * on the network, dto is used to validate incoming network payloads
+ * to be utilized in controller methods using class-transformer and 
+ * class-validator
+ */
 export class RecordDto {
 
     @ApiProperty({
