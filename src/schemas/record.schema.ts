@@ -16,7 +16,7 @@ import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 @Schema({
     collection: 'records'
 })
-export class Item {
+export class Record {
 
     @Prop({
         required: true,
@@ -32,4 +32,4 @@ export class Item {
     counts: number[];
 }
 
-export const ItemSchema = SchemaFactory.createForClass(Item);
+export const ItemSchema = SchemaFactory.createForClass(Record);

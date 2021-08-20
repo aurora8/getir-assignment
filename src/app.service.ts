@@ -1,14 +1,20 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { Item } from './schemas/record.schema';
+import { Record } from './schemas/record.schema';
 import { RecordDto } from './schemas/record.dto';
 
 @Injectable()
 export class AppService {
+
+  /**
+   * @constructor
+   * injects a RecotdItem model
+   * @param RecordItem 
+   */
   constructor(
-    @InjectModel(Item.name)
-    private ItemModel: Model<Item>,
+    @InjectModel(Record.name)
+    private RecordItem: Model<Record>,
   ) {}
 
   /**
