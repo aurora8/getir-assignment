@@ -5,14 +5,12 @@
 */
 
 import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
-import { IsNotEmpty } from "class-validator";
 
 @Schema({
     collection: 'records'
 })
 export class Item {
 
-    @IsNotEmpty()
     @Prop({
         required: true,
     })
