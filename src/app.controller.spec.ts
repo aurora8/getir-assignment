@@ -8,15 +8,20 @@ import { Record, RecordSchema } from './schemas/record.schema';
 const response = {
   records: [
     {
-      key: 'TAKwGc6Jr4i8Z487',
-      createdAt: '2017-01-28T01:22:14.398Z',
-      totalCount: 310,
+      "key": "TAKwGc6Jr4i8Z487",
+      "createdAt": "2017-01-28T01:22:14.398Z",
+      "totalCount": 310
     },
     {
-      key: 'TAKwGc6Jr4i8Z487',
-      createdAt: '2017-01-28T01:22:14.398Z',
-      totalCount: 170,
+      "key": "TAKwGc6Jr4i8Z487",
+      "createdAt": "2017-01-28T01:22:14.398Z",
+      "totalCount": 170
     },
+    {
+      "key": "TAKwGc6Jr4i8Z487",
+      "createdAt": "2017-01-28T01:22:14.398Z",
+      "totalCount": 120
+    }
   ],
   code: 200,
   msg: 'Success',
