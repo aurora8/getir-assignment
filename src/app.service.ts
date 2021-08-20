@@ -26,7 +26,7 @@ export class AppService {
    * @returns {Promise<Collection<ItemRecord>>} query results
    */
   async filterItems(dto: RecordDto) {
-    const result = await this.ItemModel.aggregate([
+    const result = await this.RecordItem.aggregate([
       {
         $match: {
           createdAt: {

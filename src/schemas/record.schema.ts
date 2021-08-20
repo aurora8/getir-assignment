@@ -32,4 +32,4 @@ export class Record {
     counts: number[];
 }
 
-export const ItemSchema = SchemaFactory.createForClass(Record);
+export const RecordSchema = SchemaFactory.createForClass(Record);

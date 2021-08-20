@@ -3,7 +3,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { ThrottlerModule } from '@nestjs/throttler';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { Record, ItemSchema } from './schemas/record.schema';
+import { Record, RecordSchema } from './schemas/record.schema';
 
 @Module({
   imports: [
@@ -14,7 +14,7 @@ import { Record, ItemSchema } from './schemas/record.schema';
       }
     ),
     MongooseModule.forFeature([
-      { name: Record.name, schema: ItemSchema },
+      { name: Record.name, schema: RecordSchema },
     ]),
     ThrottlerModule.forRoot({
       ttl: 60,
