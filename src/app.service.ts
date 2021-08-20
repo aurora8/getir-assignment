@@ -22,6 +22,12 @@ export class AppService {
    * only takes care of executing business logic, the app
    * controller uses this method to run the query
    * 
+   * the aggregate pipeline first matches only those records
+   * that fall within the target dates, the filtered data is
+   * then passed to the $porjection stage effectively adding 
+   * total counts, then the second match filters applies a second
+   * stage filter (optimization)
+   * 
    * @param {RecordDto} dto the dto of the request payloads
    * @returns {Promise<Collection<ItemRecord>>} query results
    */
