@@ -23,7 +23,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@nestjs/common@^8.0.6":
+"@nestjs/common@latest":
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-8.0.6.tgz#52157de0bde7a439b2248ffd6d5e221fd593bc93"
   integrity sha512-mSD000iYJDN2wjL2hbygCVNVvzvi3VW5EDc25gK1Bj3wUU2HR8m1qOAUBqcCaGIuvBb2cD/pnVkKklnsY0rKhw==
@@ -33,7 +33,7 @@
     tslib "2.3.0"
     uuid "8.3.2"
 
-"@nestjs/core@^8.0.6":
+"@nestjs/core@latest":
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-8.0.6.tgz#ff403a0713f9f7874e3a91ef5416fe6e96872635"
   integrity sha512-PIGL4TMjVkAsiv5hJinaTx3WdoftYh7pJDwIUQPvRZPLhboGbOJlVapN0Cw5SL7XgNWojQiAsbgLmnGJVDO3Sw==
@@ -56,7 +56,7 @@
   resolved "https://registry.yarnpkg.com/@nestjs/mongoose/-/mongoose-8.0.1.tgz#95d640bc746fdba04103a1e57a1ee3e3787ff0f1"
   integrity sha512-L/115qDU5Jhw2LmyMiNsnf8jI7ajy8nJESCR13KKUpPuUc3nZiDJTrsLg0z5Zwa4FiawXzvPguWOb9/QW7wJtA==
 
-"@nestjs/platform-express@^8.0.6":
+"@nestjs/platform-express@latest":
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-8.0.6.tgz#fee8baca5eb37c5e17f350a6e514318876bd5f56"
   integrity sha512-1nIWd2w3aq3k0UNThDI6VWLqurc0Fvw3FO6BHWHK+Y7H/z9KFHZ0W/HdD9IJH05m4Smp/2neZoMkKdlXeh9wpQ==
@@ -4849,10 +4849,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.0.1:
-  version "3.9.10"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
-  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
+typescript@^4.0.0:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
 uglify-js@^3.1.4:
   version "3.14.1"

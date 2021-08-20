@@ -20,10 +20,10 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nestjs/common": "^8.0.6",
-    "@nestjs/core": "^8.0.6",
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
     "@nestjs/mongoose": "^8.0.1",
-    "@nestjs/platform-express": "^8.0.6",
+    "@nestjs/platform-express": "latest",
     "@nestjs/swagger": "^5.0.9",
     "@nestjs/throttler": "^2.0.0",
     "class-transformer": "^0.4.0",
@@ -34,7 +34,7 @@
     "rimraf": "^2.6.2",
     "rxjs": "^6.2.2",
     "swagger-ui-express": "^4.1.6",
-    "typescript": "^3.0.1"
+    "typescript": "^4.0.0"
   },
   "devDependencies": {
     "@nestjs/testing": "^8.0.6",
