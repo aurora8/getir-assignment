@@ -10,9 +10,6 @@ features focused on high modularity, clean project structures, typescript suppor
 business logic is handled in app.service.ts
 api endpoints are defined in app.controller.ts
 tests are defined in app.controller.spec.ts
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
