@@ -6,6 +6,13 @@
 
 import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 
+/**
+ * collection mapping to the records collection
+ * 
+ * modeling collection schema mappings is useful to 
+ * support in extending the application, this model
+ * class allows eay extensions
+ */
 @Schema({
     collection: 'records'
 })
