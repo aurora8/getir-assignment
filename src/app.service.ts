@@ -11,10 +11,14 @@ export class AppService {
     private ItemModel: Model<Item>,
   ) {}
 
-  async findAll() {
-    return await this.ItemModel.find({}).exec();
-  }
-
+  /**
+   * executes a filter query, this is the service layer that
+   * only takes care of executing business logic, the app
+   * controller uses this method to run the query
+   * 
+   * @param {RecordDto} dto the dto of the request payloads
+   * @returns {Promise<Collection<ItemRecord>>} query results
+   */
   async filterItems(dto: RecordDto) {
     const result = await this.ItemModel.aggregate([
       {
