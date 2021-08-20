@@ -54,7 +54,7 @@ describe('AppController', () => {
       jest.setTimeout(10000);
       expect(
         await appController.query({
-          startDate: new Date('2017-01-0'),
+          startDate: new Date('2017-01-01'),
           endDate: new Date('2018-03-18'),
           minCount: 0,
           maxCount: 1000,
