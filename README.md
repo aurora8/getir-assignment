@@ -24,9 +24,10 @@ tests are defined in **app.controller.spec.ts**
 
 The Api exposes a POST endpoint to https://powerful-savannah-83491.herokuapp.com/api/records, the root path renders a Swagger UI document
 
-Pass a JSON object payload in the request BODY with the following interface
+Pass a JSON object payload in the request BODY with the following interface specification
 
-```RecordDto {
+```
+RecordDto {
   startDate*	string
   title: item start date from
   example: YYYY-MM-DD
@@ -44,7 +45,8 @@ Pass a JSON object payload in the request BODY with the following interface
   maxCount*	number
   title: max count of the sum on the count field
   filters items that have a count field sum lower than this value
-}```
+}
+```
 
 ## Installation
 
