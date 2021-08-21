@@ -22,7 +22,9 @@ tests are defined in **app.controller.spec.ts**
 - **Error Handling** built in using global a Filter pipe for all exception handling
 - **Deployment** Heroku, the final app is accessible at https://powerful-savannah-83491.herokuapp.com/api
 
-The Api exposes a POST endpoint to https://powerful-savannah-83491.herokuapp.com/api/records, the root path renders a Swagger UI document
+The Api exposes a POST endpoint to https://powerful-savannah-83491.herokuapp.com/api/records, the root path at '/api' renders a Swagger UI document
+
+Navigate to https://powerful-savannah-83491.herokuapp.com/api to view swagger UI
 
 Pass a JSON object payload in the request BODY with the following interface specification
 
