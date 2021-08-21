@@ -16,7 +16,7 @@ export class AppController {
     type: () => RecordDto,
     description: 'request payload, defines filter conditions to apply on items'
   })
-  @Post()
+  @Post('records')
   /**
    * executes a filter query against the records collection
    * with the matching query conditions from the request payloads
